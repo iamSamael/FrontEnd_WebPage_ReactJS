@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+.container{
+    margin-left: 130px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+
+.right{
+    width: 50%;
+    height: 600px;
+    background: no-repeat center;
+    padding-right: 500px;
+    z-index: -2;
+    margin-left: -100px;
+
+}
+
+.left{
+    width: 400px;
+    min-height: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -100px;
+
+
+}
+
+.left h1{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.left p{
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.logistic{
+    font-weight: bold;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.shipping{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.partner{
+    padding-top: 15px;
+    color: #fcbc05;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Oswald", sans-serif;
+}
+
+.discover-more-button{
+    background-color: #f9bf04;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 40px;
+    transition: transform 0.1s ease-in-out;
+    font-weight: bold;
+
+}
+
+.discover-more-button:hover{
+    background-color: #000000;
+    color: white;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+
+}
+
+.body-para{
+    color: #6a6a6a;
+}
+
+.span-left{
+    width: 500px;
+    margin-left: 60px;
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.header_logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.header_logo:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.header_logo img{
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.header_buttons{
+    font-family: "Barlow Condensed", sans-serif;
+    display: flex;
+}
+
+.section_links{
+    display: flex;
+    margin-right: 20px;
+}
+
+.section_links p{
+    font-size: 15px;
+}
+
+.section_links button{
+    font-family: "Barlow Condensed", sans-serif;
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.section_links button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.section_buttons{
+    display: flex;
+    padding-top: 10px;
+    width: 300px;
+    height: 30px;
+    padding-right: 165px;
+}
+
+.section_buttons button{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 20px;
+    width: 130px;
+    font-size: 13px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section_buttons a{
+    text-decoration: none;
+}
+
+.get-a-quote{
+    background-color: #f9bf04;
+    border: none;
+    transition: transform 0.1s ease-in-out;
+    color: white;
+}
+
+.get-a-quote:hover{
+    background-color: #000000;
+    color: white;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+}
+
+.sign-in{
+    background-color: black;
+    color: white;
+    border-width: 1px;
+    transition: transform 0.1s ease-in-out;
+
+}
+
+.sign-in:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+}

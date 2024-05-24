@@ -1,0 +1,104 @@
+.welcome-main{
+    margin-top: 500px;
+    display: flex;
+    margin-bottom: -100px;
+}
+
+.triangle {
+    /*padding-top: 500px;*/
+    margin-left: 25px;
+    margin-bottom: -500px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: -35px solid transparent;
+    border-top: 35px solid #ff7c44;
+    rotate: 180deg;
+
+}
+
+.parallelogram {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    width: 100px;
+    height: 50px;
+    transform: skew(-30deg);
+    rotate: 90deg;
+    background-color: #024b5a;
+}
+
+.image-1{
+    margin-left: 350px;
+    margin-right: -350px;
+    margin-top: -150px;
+}
+
+.image-2{
+    margin-left: 150px;
+    margin-right: -150px;
+    margin-top: -250px;
+}
+
+.welcome-right{
+    margin-top: -350px;
+    width: -40%;
+    margin-left: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row-reverse;
+}
+
+.transmax-text{
+    width: 500px;
+
+}
+
+.heading-logistics{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.shapes{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: -100px;
+}
+
+.more-about-us-button{
+    padding: 25px;
+    margin-top: 30px;
+    border: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.more-about-us-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.parallelogram-in-para{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: -350px;
+    margin-left: -30px;
+    width: 100px;
+    height: 50px;
+    transform: skew(-30deg);
+    rotate: 90deg;
+    background-color: #f0f0f0;
+    opacity: 0.6;
+
+}
+
+.paragraph-1{
+    font-weight: normal;
+}
+
+.paragraph-2{
+    color: #606060;
+
+}

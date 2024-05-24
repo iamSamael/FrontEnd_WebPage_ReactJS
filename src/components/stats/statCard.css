@@ -1,0 +1,32 @@
+.statCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+.propertyValue{
+    font-weight: bold;
+    font-size: 55px;
+    width: 100px;
+}
+
+.propertyDesc{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.stat-background{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -200px;
+    font-size: 170px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 5px 5px #888686;
+}

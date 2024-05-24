@@ -1,0 +1,8 @@
+.statDisplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 70px 0 70px;
+    padding-top: -10px;
+    color: #082558;
+}
