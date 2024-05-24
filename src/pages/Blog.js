@@ -4,7 +4,7 @@ function Blog(){
     return(
         <div>
             <Navbar/>
-            this is blog page
+            <h1>this is blog page</h1>
             
         </div>
     )

@@ -4,7 +4,7 @@ function MoreAboutTransMax(){
     return(
         <div>
             <Navbar/>
-            this is More About TransMax page
+            <h1>this is More About TransMax page</h1>
 
         </div>
     )

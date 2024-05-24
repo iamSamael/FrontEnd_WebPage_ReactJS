@@ -1,7 +1,10 @@
+import Navbar from "../components/navbar/Navbar";
+
 function GetAQuote(){
     return(
         <div>
-            Get a Quote Page
+            <Navbar/>
+            <h1>Get a Quote Page</h1>
         </div>
     )
 }

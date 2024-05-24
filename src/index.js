@@ -8,8 +8,11 @@ import MoreAboutTransMax from './pages/MoreAboutTransMax'
 import GetAQuote from "./pages/GetAQuote";
 import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
+import Tracking from "./pages/Tracking";
+import Services from "./pages/Services";
 
-import {createBrowserRouter, RouterProvider, Route} from "react-router-dom";
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
+
 
 const router = createBrowserRouter([
     {
@@ -35,6 +38,14 @@ const router = createBrowserRouter([
     {
         path: "/signup",
         element: <Signup/>,
+    },
+    {
+        path: "/tracking",
+        element: <Tracking/>,
+    },
+    {
+        path: "/services",
+        element: <Services/>,
     },
 ])
 

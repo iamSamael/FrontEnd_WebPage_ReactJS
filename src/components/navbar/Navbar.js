@@ -8,7 +8,7 @@ function Navbar () {
     return(
         <div className="navbar">
             <section className="header_logo">
-                <img src={logo} width='60px' height='60px'/>
+                <img src={logo} width='60px' height='60px' alt="logo iamge"/>
             </section>
             <section className="header_buttons">
                 <section className="section_links">
@@ -17,8 +17,14 @@ function Navbar () {
                     </Link>
 
                     <button><p>PAGES <FontAwesomeIcon icon={faCaretDown} /></p> </button>
+
+                    <Link to="/tracking">
                     <button><p>TRACKING </p></button>
-                    <button><p>SERVICES <FontAwesomeIcon icon={faCaretDown} /></p> </button>
+                    </Link>
+
+                    <Link to="/services">
+                        <button><p>SERVICES <FontAwesomeIcon icon={faCaretDown} /></p> </button>
+                    </Link>
 
                     <Link to="/blog">
                         <button><p>BLOG <FontAwesomeIcon icon={faCaretDown} /></p> </button>

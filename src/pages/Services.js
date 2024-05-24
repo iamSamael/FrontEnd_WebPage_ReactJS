@@ -1,12 +1,12 @@
 import Navbar from "../components/navbar/Navbar";
 
-function Signup(){
+function Services(){
     return(
         <div>
             <Navbar/>
-            <h1>This is the Sign-up Page</h1>
+            <h1>this is the services</h1>
         </div>
     )
 }
 
-export default Signup
+export default Services
